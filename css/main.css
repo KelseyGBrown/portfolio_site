@@ -1,0 +1,237 @@
+/**** Base Styles ****/
+
+
+/**** TEXT STYLES ****/
+
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #D9A890;  
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #5F7874;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #5F7874;
+    text-transform:uppercase;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #5F7874;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+/**** GRID ******/
+
+body{
+    background-color: #F2F3EE;
+}
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width{
+    width: 500px;
+    float: left;
+    overflow: auto;
+    padding:0px 20px 0px 20px; 
+}    
+
+
+
+
+
+/**** NAV ****/
+
+#intro ul {
+    list-style: none;
+    float: left;
+}
+
+#intro ul li {
+     display: inline-block;
+     font-family: 'Raleway', sans-serif;
+     padding: 10px 15px 0px 15px;
+}
+
+#intro a{
+    font-family: 'Raleway', sans-serif;
+     padding: 10px 15px 0px 15px;
+     color: #9AAA8D;
+}
+
+#intro a:hover{
+    color: #D9A890;
+}
+
+
+/**** INTRO ****/
+
+#intro {
+    background: url('../img/background-image.jpeg');
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+
+#intro h1{
+    padding-top: 100px;
+    padding-left: 600px;
+}
+#intro h2{
+    text-align: right;
+    padding: 100px 200px 0px 400px;
+}
+
+
+
+
+/**** About Me ****/
+
+
+
+#about {
+    background-color: #9AAA8D;
+    background-size: cover;
+    background-repeat: repeat-x;
+    padding: 30px 0px 30px 0px;
+}
+
+
+#about p{
+    color: #F2F3EE;
+    width: 450px;
+}
+
+
+#about img{
+    width: 300px;
+    height: auto;
+    margin: 30px 0px 30px 120px;
+    border-style: solid;
+    border-color: #D9A890;
+    border-width: 2px;
+}
+
+
+
+/**** Projects ****/
+
+#portfolio{
+    background-color: #F2F3EE;
+}
+
+
+#portfolio .half-width{
+    padding: 30px 60px 30px 30px;
+}
+
+#portfolio p{
+    padding-right: 100px;
+}
+
+#portfolio img {
+    width: 100%;
+    height: auto;
+    image
+  }
+
+#portfolio a{
+    text-decoration:none;
+    color: black;
+}
+
+
+
+
+/**** Contact ****/
+
+
+#contact{
+    background-color: #9AAA8D;
+    padding-bottom: 40px;
+}
+
+
+#contact h3{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#contact h4{
+    text-align:left;
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+
+#coffee-img img{
+    margin: 30px 60px 30px 30px;
+    border-style: solid;
+    border-color: #D9A890;
+    border-width: 2px;
+
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+     padding: 0px 25px 0px 0px;
+     color: #F2F3EE
+}
+
+#contact a{
+    text-decoration: none;
+    color: #F2F3EE;  
+}
+
+
+
+
+/**** Footer ****/
+
+footer {
+    background-color: #F2F3EE;
+    margin-top: 0px;
+}
+
+footer p{
+    color: #5F7874;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer a{ 
+    text-decoration: none;
+    color:#5F7874
+}

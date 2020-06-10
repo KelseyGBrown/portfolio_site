@@ -1,0 +1,202 @@
+/**** Base Styles ****/
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color:#2a2c24;
+    margin: 50px 0px 0px 100px;
+}
+
+h2{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 40px;
+    color: #2a2c24;
+    margin: 20px 0 0 100px;
+}
+
+h2:hover{
+    color: #748B75;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #2a2c24;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    color:#2a2c24;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color:#2a2c24;
+    margin: 10px 40px 10px 10px;
+
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color:#2a2c24;
+}
+
+a:hover{
+    color:#748B75;
+}
+
+
+/**** Grids ****/
+
+
+.full-width{
+    width: 1200px;
+    height: auto;
+    overflow:auto;
+    padding: 75px 0 50px 0;
+    
+}
+
+.half-width{
+    width: 600px;
+    height: auto;
+    overflow:auto;
+    float:left;
+    margin: 25px 0 50px 0;
+}
+
+.third-width{
+    width: 340px;
+    height:400px;
+    overflow:auto;
+    float:left;
+    margin: 50px 30px 50px 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#748B75;
+}
+
+.quarter-width{
+    width: 300px;
+    height:auto;
+    overflow: auto;
+    float:left;
+    margin: 20px 0px 20px 0;
+}
+
+
+/**** INTRO ****/
+
+#intro{
+    height: 800px;
+    background-size: cover;
+    background-image: url('../img/randy-fath-unsplash.jpg');
+    background-position: center;
+}
+
+#intro h4{
+    padding: 25px 25px 0 25px;
+    text-align: right;
+}
+
+#intro h2{
+    margin-top: 350px;
+}
+
+/**** Highlights ****/
+
+
+#highlights h3{
+    padding-bottom: 25px;
+}
+
+#highlights h3:hover{
+    color: #A44A3F
+}
+
+#highlights h4{
+    text-align: center;
+}
+
+#highlights h4:hover{
+    color: #748B75
+}
+
+
+
+
+/**** ABOUT ****/
+
+#cfi-pic img{
+    width:300px;
+    height: auto;
+    margin: 50px 25px 50px 175px;
+    border-color: #748B75;
+    border-width: 3px;
+    border-style: solid;
+}
+
+
+#about h2{
+    margin-bottom: 30px;
+}
+
+#about p span{
+    color: #A44A3F;
+    font-size: 25px;
+}
+
+
+/**** IMAGES ****/
+
+
+#images img{
+    widows: 300px;
+    height:250px;
+    overflow-y: clip;
+}
+
+
+/**** Contact ****/
+
+
+#contact-img img{
+    width:400px;
+    height:auto;
+    margin:50px 150px 50px 50px;
+    border-style: solid;
+    border-color:#748B75;
+    border-width: 3px;
+}
+
+#contact-img img:hover{
+    border-width: 10px;
+    border-style: solid;
+    border-color: #748B75;
+}
+
+
+#contact h2{
+    text-align: center;
+}
+
+
+#contact h4{
+    padding: 50px 0px 0 20px;
+    text-align: left;
+}
+
+
+ul {
+    list-style: none;
+}
+
+ul li {
+     display: inline-block;
+     padding: 10px 40px 10px 20px;
+}
